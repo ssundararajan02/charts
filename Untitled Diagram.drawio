@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="Rdg068cimGGV3XcEk2GO">
+    <mxGraphModel dx="-64" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="Mtz_S5zF4q6LZpZfLcFK-1" target="Mtz_S5zF4q6LZpZfLcFK-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" source="Mtz_S5zF4q6LZpZfLcFK-1" target="Mtz_S5zF4q6LZpZfLcFK-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-1" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;DB Central Audit DB&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="250" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-4" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;&lt;p style=&quot;margin: 8px 0px 4px; overflow-wrap: break-word; font-family: &amp;quot;Segoe Sans&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(31, 31, 31);&quot;&gt;&lt;span style=&quot;font-weight: 600;&quot;&gt;Scheduled Job (Every 6 Hours):&lt;/span&gt;&lt;/p&gt;&lt;ul style=&quot;margin: 4px 0px; padding-inline: 24px 0px; box-sizing: border-box; font-family: &amp;quot;Segoe Sans&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(31, 31, 31);&quot;&gt;&lt;li style=&quot;padding-inline-start: 4px;&quot;&gt;Retrieves data from the remote database for the past 6 hours&lt;/li&gt;&lt;li style=&quot;padding-inline-start: 4px;&quot;&gt;Maintains a rolling 30-day record history&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="460" width="510" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-8" value="XSIAM Pulls data from central audit DB" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="80" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-12" value="DB1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="910" y="110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-13" value="DBn" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="910" y="500" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-14" value="DB2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="910" y="220" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-15" value="DB3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="910" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=82.5;entryPerimeter=0;" parent="1" source="Mtz_S5zF4q6LZpZfLcFK-12" target="Mtz_S5zF4q6LZpZfLcFK-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.034;entryY=0.722;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Mtz_S5zF4q6LZpZfLcFK-14" target="Mtz_S5zF4q6LZpZfLcFK-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=82.5;entryPerimeter=0;" parent="1" source="Mtz_S5zF4q6LZpZfLcFK-15" target="Mtz_S5zF4q6LZpZfLcFK-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mtz_S5zF4q6LZpZfLcFK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=82.5;entryPerimeter=0;" parent="1" source="Mtz_S5zF4q6LZpZfLcFK-13" target="Mtz_S5zF4q6LZpZfLcFK-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
